@@ -18,5 +18,7 @@ public class Main {
             }
         }
         System.out.println("Конец меин потока");
+
+        Singleton s = Singleton.getInstance();
     }
 }
